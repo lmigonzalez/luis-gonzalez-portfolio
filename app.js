@@ -7,7 +7,7 @@ const navLinkLinks = document.querySelector('.nav-links').getElementsByTagName('
 
 
 navLinks.addEventListener('click', closeTab)
-navLinks.addEventListener('scroll', closeTab)
+window.addEventListener('scroll', closeTab)
 
 bars.addEventListener('click', showMenu)
 
