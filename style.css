@@ -122,7 +122,7 @@ header {
 
 .contact-icons {
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #2d4263;
