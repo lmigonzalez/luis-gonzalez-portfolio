@@ -61,6 +61,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-height: 100vh;
 }
 
 .nav-links li {
@@ -425,7 +426,7 @@ footer p {
   }
 
   .nav-links.toggle {
-    position: relative;
+    /* position: absolute; */
     z-index: 2;
     display: flex;
     flex-direction: column;
