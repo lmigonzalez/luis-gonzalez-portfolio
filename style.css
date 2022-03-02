@@ -96,6 +96,9 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   animation: anim2 1s;
+  
+  width: 90%;
+
 }
 
 .inf h1 {
@@ -403,7 +406,9 @@ footer p {
 }
 
 @media (max-width: 900px) {
-  .inf h1,
+  .inf h1{
+	  font-size: 3rem;
+  }
   .inf h2 {
     font-size: 2.5rem;
   }
@@ -546,7 +551,9 @@ footer p {
 }
 
 @media (max-width: 750px) {
-  .inf h1,
+  .inf h1{
+	  font-size: 3rem
+  }
   .inf h2 {
     font-size: 2rem;
   }
@@ -562,10 +569,11 @@ footer p {
 
 @media (max-width: 620px) {
   .inf h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .inf h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+	display: inline-block;
   }
   .html {
     top: 20%;
@@ -620,12 +628,7 @@ footer p {
 }
 
 @media (max-width: 480px) {
-  .inf h1 {
-    font-size: 2rem;
-  }
-  .inf h2 {
-    font-size: 1.3rem;
-  }
+ 
   .inf p {
     font-size: 1rem;
   }
@@ -633,10 +636,10 @@ footer p {
 
 @media (max-width: 430px) {
   .inf h1{
-	  font-size: 1.8rem;
+	  font-size: 2.3rem;
   }
   .inf h2 {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 }
 
