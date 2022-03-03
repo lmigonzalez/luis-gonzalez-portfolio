@@ -59,6 +59,12 @@ header {
 .nav-bar img {
   width: 3rem;
   margin: 0 1rem;
+  animation: logo-animation 1s;
+  transition: ease-in-out 0.8s;
+}
+
+.nav-bar img:hover{
+	transform: rotate(180deg);
 }
 
 .nav-links {
@@ -199,6 +205,16 @@ header {
   position: absolute;
   top: 15%;
   right: 50%;
+}
+
+@keyframes logo-animation{
+	0%{
+		transform: rotate(360deg);
+	}
+
+	100%{
+		transform: rotate(0deg);
+	}
 }
 
 @keyframes anim {
