@@ -44,6 +44,7 @@ header {
   text-decoration: none;
 }
 
+
 .bars:hover {
   transform: scale(0.9);
 }
@@ -279,8 +280,6 @@ header {
   border-radius: 0.8rem;
   -webkit-box-shadow: 5px 5px 15px 0px #000000;
   box-shadow: 5px 5px 15px 0px #000000;
-  border-style: none;
-  cursor: pointer;
   text-align: start;
   transition: ease-in-out 0.5s;
 }
@@ -301,8 +300,11 @@ header {
   margin: 0 0.5rem;
 }
 
-.work h3 {
+.work a {
   font-size: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
 }
 
 .work p {
@@ -392,6 +394,7 @@ header {
   border-radius: 0.5rem;
   cursor: pointer;
   border-style: none;
+  text-decoration: none;
 }
 .contact-btn a {
   text-decoration: none;
@@ -613,9 +616,6 @@ footer p {
     right: 50%;
   }
 
-  .work {
-    min-width: 40%;
-  }
   .projects-container {
     flex-direction: column;
   }
