@@ -671,3 +671,14 @@ footer p {
     opacity: 0.9;
   }
 }
+
+
+@media (max-height: 580px){
+	.contact-icons{
+		display: none;
+	}
+
+	.icon{
+		display: none;
+	}
+}
