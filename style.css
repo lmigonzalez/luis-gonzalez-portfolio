@@ -271,10 +271,13 @@ header {
   margin: 0 auto;
   max-width: 1200px;
   padding: 5rem 1rem;
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .title {
@@ -290,9 +293,7 @@ header {
 .work {
   color: #fff;
   background-color: #2d4263;
-  max-width: 30%;
   padding: 2rem;
-  margin: 1rem 0;
   border-radius: 0.8rem;
   -webkit-box-shadow: 5px 5px 15px 0px #000000;
   box-shadow: 5px 5px 15px 0px #000000;
@@ -303,9 +304,9 @@ header {
   transform: translateY(-1rem);
 }
 
-.work2 {
+/* .work2 {
   margin: 0 2rem;
-}
+} */
 
 .work-links {
   font-size: 1.5rem;
