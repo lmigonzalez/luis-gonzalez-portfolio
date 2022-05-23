@@ -277,13 +277,13 @@ header {
   margin: 0 auto;
   max-width: 1200px;
   padding: 5rem 1rem;
-  /* display: flex;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center; */
-  display: grid;
+  align-items: center;
+  /* display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
 }
 
 .title {
@@ -297,9 +297,11 @@ header {
 }
 
 .work {
+  max-width: 50rem;
   color: #fff;
   background-color: #2d4263;
   padding: 2rem;
+  margin: 1rem 0;
   border-radius: 0.8rem;
   -webkit-box-shadow: 5px 5px 15px 0px #000000;
   box-shadow: 5px 5px 15px 0px #000000;
@@ -322,6 +324,9 @@ header {
   color: #fff;
   margin: 0 0.5rem;
 }
+/* .project-title{
+  color: #BFFFF0 !important;
+} */
 
 .work a {
   font-size: 1.5rem;
@@ -589,20 +594,7 @@ footer p {
   .work {
     min-width: 40%;
   }
-  .projects-container {
-    /* position: relative;
-    background-color: #fff;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 5rem 1rem;
-    display: grid;
-    grid-gap: 1rem; */
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; */
-  }
+
 }
 
 @media (max-width: 750px) {
@@ -620,20 +612,7 @@ footer p {
   .contact-icons p {
     font-size: 0.8rem;
   }
-  .projects-container {
-    /* position: relative;
-    background-color: #fff;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 5rem 1rem;
-    display: grid;
-    grid-gap: 1rem; */
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; */
-  }
+
 }
 
 @media (max-width: 620px) {
@@ -691,20 +670,7 @@ footer p {
   .work:hover {
     transform: translateY(-0.3rem);
   }
-  .projects-container {
-    /* position: relative;
-    background-color: #fff;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 5rem 1rem;
-    display: grid;
-    grid-gap: 1rem; */
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; */
-  }
+
 }
 
 @media (max-width: 480px) {
