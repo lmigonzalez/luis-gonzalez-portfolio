@@ -125,9 +125,11 @@ header {
 }
 
 .inf p {
+  margin: 0 auto;
   font-family: sans-serif;
   font-weight: 200;
   line-height: 1.5;
+  max-width: 700px;
 }
 
 .contact-icons {
@@ -145,13 +147,13 @@ header {
   animation: anim3 1s;
 }
 .contact-icons p {
-  margin-bottom: 0.3rem;
+  display: contents;
 }
 
 .contact-icons a {
   color: #fff;
   font-size: 2rem;
-  margin: 0.3rem;
+  margin: 0.5rem;
   transition: ease-in-out 0.2s;
 }
 
@@ -165,40 +167,44 @@ header {
   margin: 0 0.3rem;
 }
 
-.html {
+
+
+.bootstrap {
   position: absolute;
   top: 25%;
   left: 20%;
 }
 
-.css {
+.javascript {
   position: absolute;
   top: 45%;
   left: 10%;
 }
 
-.javascript {
+.react {
   position: absolute;
   top: 65%;
   left: 20%;
 }
 
-.bootstrap {
+.nodejs {
   position: absolute;
   top: 25%;
   right: 20%;
 }
 
-.react {
+.express {
   position: absolute;
   top: 45%;
   right: 10%;
+
 }
 
-.node {
+.database {
   position: absolute;
   top: 65%;
   right: 20%;
+ 
 }
 
 .figma {
@@ -277,7 +283,7 @@ header {
   align-items: center; */
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
 .title {
@@ -327,6 +333,7 @@ header {
 .work p {
   font-family: sans-serif;
   margin: 1rem 0;
+  line-height: 1.6;
 }
 
 .work ul {
@@ -338,6 +345,15 @@ header {
 .work ul li {
   font-family: sans-serif;
   margin: 0.3rem;
+  color: #fff;
+  background-color: #000;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.learn-more{
+  font-size: 1rem !important;
+  color: #BFFFF0 !important;
 }
 
 /* skills */
@@ -412,6 +428,8 @@ header {
   cursor: pointer;
   border-style: none;
   text-decoration: none;
+  background-color: #fff;
+  display: inline-block;
 }
 .contact-btn a {
   text-decoration: none;
@@ -533,32 +551,32 @@ footer p {
     margin-right: 0.3rem;
   }
 
-  .html {
+  .bootstrap {
     top: 20%;
     left: 5%;
   }
 
-  .css {
+  .javascript {
     top: 20%;
     left: 15%;
   }
 
-  .javascript {
+  .react {
     top: 20%;
     left: 25%;
   }
 
-  .bootstrap {
+  .nodejs {
     top: 70%;
     right: 25%;
   }
 
-  .react {
+  .express {
     top: 70%;
     right: 5%;
   }
 
-  .node {
+  .database{
     top: 70%;
     right: 15%;
   }
@@ -598,35 +616,35 @@ footer p {
     font-size: 2rem;
 	display: inline-block;
   }
-  .html {
+  .bootstrap {
     top: 20%;
     left: 5%;
   }
 
-  .css {
+  .javascript {
     top: 20%;
     left: 20%;
   }
 
-  .javascript {
+  .react {
     top: 20%;
     left: 35%;
   }
-
-  .bootstrap {
+  
+  .nodejs {
+    top: 70%;
+    right: 20%;
+  }
+  .express {
     top: 70%;
     right: 35%;
   }
 
-  .react {
+  .database {
     top: 70%;
     right: 5%;
   }
 
-  .node {
-    top: 70%;
-    right: 20%;
-  }
 
   .figma {
     top: 15%;
