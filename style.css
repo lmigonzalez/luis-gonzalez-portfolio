@@ -589,6 +589,20 @@ footer p {
   .work {
     min-width: 40%;
   }
+  .projects-container {
+    position: relative;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 5rem 1rem;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
 }
 
 @media (max-width: 750px) {
